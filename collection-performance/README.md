@@ -14,4 +14,23 @@
 
 ### Сборка проекта
 ```bash
+
 mvn clean compile
+
+## Команды для запуска:
+
+```bash
+# Перейдите в папку проекта
+cd collection-performance
+
+# Соберите проект
+mvn clean compile
+
+# Запустите тесты
+mvn test
+
+# Запустите приложение
+mvn exec:java
+
+# Или с конкретным числом операций
+mvn exec:java -Dexec.args="2000"
