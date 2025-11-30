@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.collections.IntegrationTest" time="1.269" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Kukich\Desktop\collection-performance\target\test-classes;C:\Users\Kukich\Desktop\collection-performance\target\classes;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Kukich\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kukich\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Kukich\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Kukich\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kukich\AppData\Local\Temp\surefire10766368783542470702\surefirebooter-20251130135738163_3.jar C:\Users\Kukich\AppData\Local\Temp\surefire10766368783542470702 2025-11-30T13-57-38_080-jvmRun1 surefire-20251130135738163_1tmp surefire_0-20251130135738163_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Kukich\Desktop\collection-performance\target\test-classes;C:\Users\Kukich\Desktop\collection-performance\target\classes;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Kukich\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Kukich\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Kukich\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Kukich\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Kukich\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kukich"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Kukich\Desktop\collection-performance"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kukich\AppData\Local\Temp\surefire10766368783542470702\surefirebooter-20251130135738163_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="Kukich"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kukich\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kukich\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Kukich\Desktop\collection-performance"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Kukich\AppData\Local\Microsoft\WindowsApps;D:\javaide\IntelliJ IDEA 2025.2.1\bin;C:\Dev\apache-maven-3.9.11\bin;C:\Users\Kukich\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testMainMethodWithInvalidArgument" classname="com.example.collections.IntegrationTest" time="0.573">
+    <system-out><![CDATA[Неверный формат числа. Использую значение по умолчанию: 10000
+🚀 Запуск тестов производительности ArrayList vs LinkedList
+==========================================================
+
+📊 Результаты тестирования (10000 операций):
+==================================================================================
+Метод                     ArrayList (нс)  LinkedList (нс) Быстрее      Разница   
+----------------------------------------------------------------------------------
+add(в начало)             4645400         720000          LinkedList   6,45      x
+add(в конец)              278000          293700          ArrayList    1,06      x
+add(случайная позиция)    3255000         43283300        ArrayList    13,30     x
+get(по индексу)           235600          32000300        ArrayList    135,82    x
+get(случайный индекс)     284300          30649600        ArrayList    107,81    x
+remove(из начала)         3354400         277500          LinkedList   12,09     x
+remove(из конца)          281100          325200          ArrayList    1,16      x
+remove(случайная позиция) 3115600         29004300        ArrayList    9,31      x
+search(contains)          25240400        76713700        ArrayList    3,04      x
+iteration(foreach)        188800          214600          ArrayList    1,14      x
+
+📈 Итоговая статистика:
+=====================
+Побед ArrayList: 8
+Побед LinkedList: 2
+🏆 ArrayList показал лучшую производительность в большинстве тестов
+
+💡 Рекомендации по использованию:
+- ArrayList лучше для частого доступа по индексу и добавления в конец
+- LinkedList лучше для частых вставок/удалений в начале/середине списка
+]]></system-out>
+  </testcase>
+  <testcase name="testMainMethodWithNoArguments" classname="com.example.collections.IntegrationTest" time="0.529">
+    <system-out><![CDATA[🚀 Запуск тестов производительности ArrayList vs LinkedList
+==========================================================
+
+📊 Результаты тестирования (10000 операций):
+==================================================================================
+Метод                     ArrayList (нс)  LinkedList (нс) Быстрее      Разница   
+----------------------------------------------------------------------------------
+add(в начало)             4193700         95400           LinkedList   43,96     x
+add(в конец)              307300          192100          LinkedList   1,60      x
+add(случайная позиция)    2846900         41923000        ArrayList    14,73     x
+get(по индексу)           105200          31662600        ArrayList    300,98    x
+get(случайный индекс)     145300          31597300        ArrayList    217,46    x
+remove(из начала)         4336800         94700           LinkedList   45,80     x
+remove(из конца)          130400          161800          ArrayList    1,24      x
+remove(случайная позиция) 2819000         30160100        ArrayList    10,70     x
+search(contains)          27795300        87739200        ArrayList    3,16      x
+iteration(foreach)        62900           96500           ArrayList    1,53      x
+
+📈 Итоговая статистика:
+=====================
+Побед ArrayList: 7
+Побед LinkedList: 3
+🏆 ArrayList показал лучшую производительность в большинстве тестов
+
+💡 Рекомендации по использованию:
+- ArrayList лучше для частого доступа по индексу и добавления в конец
+- LinkedList лучше для частых вставок/удалений в начале/середине списка
+]]></system-out>
+  </testcase>
+  <testcase name="testPerformanceTrends" classname="com.example.collections.IntegrationTest" time="0.008"/>
+  <testcase name="testMainMethodWithValidArgument" classname="com.example.collections.IntegrationTest" time="0.009">
+    <system-out><![CDATA[🚀 Запуск тестов производительности ArrayList vs LinkedList
+==========================================================
+
+📊 Результаты тестирования (1000 операций):
+==================================================================================
+Метод                     ArrayList (нс)  LinkedList (нс) Быстрее      Разница   
+----------------------------------------------------------------------------------
+add(в начало)             200100          15700           LinkedList   12,75     x
+add(в конец)              16200           14400           LinkedList   1,13      x
+add(случайная позиция)    187700          237400          ArrayList    1,26      x
+get(по индексу)           8400            325600          ArrayList    38,76     x
+get(случайный индекс)     11500           329700          ArrayList    28,67     x
+remove(из начала)         160300          11900           LinkedList   13,47     x
+remove(из конца)          12000           14200           ArrayList    1,18      x
+remove(случайная позиция) 165200          162000          LinkedList   1,02      x
+search(contains)          317000          915200          ArrayList    2,89      x
+iteration(foreach)        6500            28200           ArrayList    4,34      x
+
+📈 Итоговая статистика:
+=====================
+Побед ArrayList: 6
+Побед LinkedList: 4
+🏆 ArrayList показал лучшую производительность в большинстве тестов
+
+💡 Рекомендации по использованию:
+- ArrayList лучше для частого доступа по индексу и добавления в конец
+- LinkedList лучше для частых вставок/удалений в начале/середине списка
+]]></system-out>
+  </testcase>
+  <testcase name="testLargeOperationCount" classname="com.example.collections.IntegrationTest" time="0.134"/>
+  <testcase name="testMultipleRunsConsistency" classname="com.example.collections.IntegrationTest" time="0.002"/>
+</testsuite>
